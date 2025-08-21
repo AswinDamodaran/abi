@@ -27,11 +27,11 @@ npm run dev
 
 Built with Next.js (React framework)
 
-Modern UI using Tailwind CSS / Material UI
+Modern UI using Tailwind CSS
 
 API integration with Axios
 
-Form validation & error handling
+Form validation & error handling using react hook forms
 
 Responsive design
 

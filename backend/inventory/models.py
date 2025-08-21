@@ -1,6 +1,18 @@
 from django.db import models
+from django.core.exceptions import ValidationError
+from decimal import Decimal
 
 # Create your models here.
+
+def validate_name(value):
+        if len(value)<2:
+            raise ValidationError("Name is too short")
+        return value
+         
+def validate_price(value):
+    if value<0:
+            raise ValidationError("price cannot be a negative number")
+    return value
 
 class Product(models.Model):
     
