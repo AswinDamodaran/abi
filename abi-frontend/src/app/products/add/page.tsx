@@ -117,9 +117,9 @@ export default function AddProductPage() {
                     />
                 </div>
 
-                <div className="flex justify-end gap-3">
+                <div className="flex justify-end gap-6">
                     <button className="px-3 py-1 bg-sub rounded-sm hover:opacity-80" type="button" onClick={()=>router.push("/")}>Cancel</button>
-                    <button className="px-4 py-2 bg-main rounded-sm hover:opacity-80" type="submit">Add product</button>
+                    <button className="px-4 py-2 bg-main text-maintext rounded-sm hover:opacity-80" type="submit">Add product</button>
                 </div>
             </form>
         </div>
